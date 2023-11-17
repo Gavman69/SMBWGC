@@ -1,0 +1,461 @@
+Version: 7
+IsBigEndian: False
+SupportPaths: False
+HasReferenceNodes: False
+root:
+  DebugAllGravityRate: 3.06250
+  GravityTableInfo:
+    Luigi:
+      GravityTable:
+        - GravityEnum: Normal
+          GravityParam:
+            - {CheckSpeed: 6.00000, KeyJumpGravity: 0.33996, NormalJumpGravity: 0.95987}
+            - {CheckSpeed: 3.75000, KeyJumpGravity: 1.33315, NormalJumpGravity: 1.33315}
+            - {CheckSpeed: 0.93750, KeyJumpGravity: 1.59978, NormalJumpGravity: 1.81309}
+            - {CheckSpeed: -0.67500, KeyJumpGravity: 0.15998, NormalJumpGravity: 1.33339}
+            - {CheckSpeed: -11.25000, KeyJumpGravity: 1.33315, NormalJumpGravity: 1.81309}
+            - {CheckSpeed: -15.00000, KeyJumpGravity: 1.81309, NormalJumpGravity: 1.81309}
+          IsSetLimitFallSpeed: false
+          LimitFallSpeed: 0.00000
+          LimitFrame: 0.00000
+        - GravityEnum: NormalStamp
+          GravityParam:
+            - {CheckSpeed: 6.00000, KeyJumpGravity: 0.40500, NormalJumpGravity: 0.81987}
+            - {CheckSpeed: 3.75000, KeyJumpGravity: 1.33315, NormalJumpGravity: 1.33315}
+            - {CheckSpeed: 0.93750, KeyJumpGravity: 1.59978, NormalJumpGravity: 1.81309}
+            - {CheckSpeed: -0.67500, KeyJumpGravity: 0.15998, NormalJumpGravity: 1.33339}
+            - {CheckSpeed: -11.25000, KeyJumpGravity: 1.33315, NormalJumpGravity: 1.81309}
+            - {CheckSpeed: -15.00000, KeyJumpGravity: 1.81309, NormalJumpGravity: 1.81309}
+          IsSetLimitFallSpeed: false
+          LimitFallSpeed: 0.00000
+          LimitFrame: 0.00000
+        - GravityEnum: PrettyHighJump_HighMin
+          GravityParam:
+            - {CheckSpeed: 6.00000, KeyJumpGravity: 0.40500, NormalJumpGravity: 0.53500}
+            - {CheckSpeed: 3.75000, KeyJumpGravity: 1.33315, NormalJumpGravity: 1.33315}
+            - {CheckSpeed: 0.93750, KeyJumpGravity: 1.59978, NormalJumpGravity: 1.81309}
+            - {CheckSpeed: -0.67500, KeyJumpGravity: 0.15998, NormalJumpGravity: 1.33339}
+            - {CheckSpeed: -11.25000, KeyJumpGravity: 1.33315, NormalJumpGravity: 1.81309}
+            - {CheckSpeed: -15.00000, KeyJumpGravity: 1.81309, NormalJumpGravity: 1.81309}
+          IsSetLimitFallSpeed: false
+          LimitFallSpeed: 0.00000
+          LimitFrame: 0.00000
+        - GravityEnum: PrettyHighJump
+          GravityParam:
+            - {CheckSpeed: 6.00000, KeyJumpGravity: 0.45000, NormalJumpGravity: 0.89987}
+            - {CheckSpeed: 3.75000, KeyJumpGravity: 1.33315, NormalJumpGravity: 1.33315}
+            - {CheckSpeed: 0.93750, KeyJumpGravity: 1.59978, NormalJumpGravity: 1.81309}
+            - {CheckSpeed: -0.67500, KeyJumpGravity: 0.15998, NormalJumpGravity: 1.33339}
+            - {CheckSpeed: -11.25000, KeyJumpGravity: 1.33315, NormalJumpGravity: 1.81309}
+            - {CheckSpeed: -15.00000, KeyJumpGravity: 1.81309, NormalJumpGravity: 1.81309}
+          IsSetLimitFallSpeed: false
+          LimitFallSpeed: 0.00000
+          LimitFrame: 0.00000
+        - GravityEnum: HighJump
+          GravityParam:
+            - {CheckSpeed: 6.00000, KeyJumpGravity: 1.00000, NormalJumpGravity: 1.73500}
+            - {CheckSpeed: 3.75000, KeyJumpGravity: 1.33315, NormalJumpGravity: 1.33315}
+            - {CheckSpeed: 0.93750, KeyJumpGravity: 1.59978, NormalJumpGravity: 1.81309}
+            - {CheckSpeed: -0.67500, KeyJumpGravity: 0.15998, NormalJumpGravity: 1.33339}
+            - {CheckSpeed: -11.25000, KeyJumpGravity: 1.33315, NormalJumpGravity: 1.81309}
+            - {CheckSpeed: -15.00000, KeyJumpGravity: 1.81309, NormalJumpGravity: 1.81309}
+          IsSetLimitFallSpeed: false
+          LimitFallSpeed: 0.00000
+          LimitFrame: 0.00000
+        - GravityEnum: VeryHighJump
+          GravityParam:
+            - {CheckSpeed: 6.00000, KeyJumpGravity: 0.55000, NormalJumpGravity: 1.61000}
+            - {CheckSpeed: 3.75000, KeyJumpGravity: 1.33315, NormalJumpGravity: 1.33315}
+            - {CheckSpeed: 0.93750, KeyJumpGravity: 1.59978, NormalJumpGravity: 1.81309}
+            - {CheckSpeed: -0.67500, KeyJumpGravity: 0.15998, NormalJumpGravity: 1.33339}
+            - {CheckSpeed: -11.25000, KeyJumpGravity: 1.33315, NormalJumpGravity: 1.81309}
+            - {CheckSpeed: -15.00000, KeyJumpGravity: 1.81309, NormalJumpGravity: 1.81309}
+          IsSetLimitFallSpeed: false
+          LimitFallSpeed: 0.00000
+          LimitFrame: 0.00000
+        - GravityEnum: KoopaRhythmJump
+          GravityParam:
+            - {CheckSpeed: 6.00000, KeyJumpGravity: 1.00000, NormalJumpGravity: 2.28000}
+            - {CheckSpeed: 3.75000, KeyJumpGravity: 1.33315, NormalJumpGravity: 1.33315}
+            - {CheckSpeed: 0.93750, KeyJumpGravity: 1.59978, NormalJumpGravity: 1.81309}
+            - {CheckSpeed: -0.67500, KeyJumpGravity: 0.15998, NormalJumpGravity: 1.33339}
+            - {CheckSpeed: -11.25000, KeyJumpGravity: 1.33315, NormalJumpGravity: 1.81309}
+            - {CheckSpeed: -15.00000, KeyJumpGravity: 1.81309, NormalJumpGravity: 1.81309}
+    MetalLuigi:
+      GravityTable:
+        - GravityEnum: Normal
+          GravityParam:
+            - {CheckSpeed: 6.00000, KeyJumpGravity: 1.25000, NormalJumpGravity: 0.95987}
+            - {CheckSpeed: 3.75000, KeyJumpGravity: 2.50000, NormalJumpGravity: 1.33315}
+            - {CheckSpeed: 0.93750, KeyJumpGravity: 0.75000, NormalJumpGravity: 1.81309}
+            - {CheckSpeed: -0.67500, KeyJumpGravity: 0.20000, NormalJumpGravity: 3.00000}
+            - {CheckSpeed: -11.25000, KeyJumpGravity: 0.94200, NormalJumpGravity: 3.00000}
+            - {CheckSpeed: -15.00000, KeyJumpGravity: 1.81309, NormalJumpGravity: 1.81309}
+          IsSetLimitFallSpeed: true
+          LimitFallSpeed: -20.00000
+          LimitFrame: 0.00000
+        - GravityEnum: NormalStamp
+          GravityParam:
+            - {CheckSpeed: 11.50000, KeyJumpGravity: 0.78000, NormalJumpGravity: 2.37500}
+            - {CheckSpeed: 6.37500, KeyJumpGravity: 0.88000, NormalJumpGravity: 0.81309}
+            - {CheckSpeed: 1.12500, KeyJumpGravity: 1.14000, NormalJumpGravity: 1.81309}
+            - {CheckSpeed: -0.45000, KeyJumpGravity: 0.52970, NormalJumpGravity: 1.33339}
+            - {CheckSpeed: -13.85000, KeyJumpGravity: 1.35861, NormalJumpGravity: 1.81309}
+            - {CheckSpeed: -15.00000, KeyJumpGravity: 1.81309, NormalJumpGravity: 1.81309}
+          IsSetLimitFallSpeed: false
+          LimitFallSpeed: 0.00000
+          LimitFrame: 0.00000
+        - GravityEnum: PrettyHighJump_HighMin
+          GravityParam:
+            - {CheckSpeed: 11.50000, KeyJumpGravity: 0.78000, NormalJumpGravity: 1.20500}
+            - {CheckSpeed: 6.37500, KeyJumpGravity: 0.88000, NormalJumpGravity: 0.81309}
+            - {CheckSpeed: 1.12500, KeyJumpGravity: 1.14000, NormalJumpGravity: 1.81309}
+            - {CheckSpeed: -0.45000, KeyJumpGravity: 0.52970, NormalJumpGravity: 1.33339}
+            - {CheckSpeed: -13.85000, KeyJumpGravity: 1.35861, NormalJumpGravity: 1.81309}
+            - {CheckSpeed: -15.00000, KeyJumpGravity: 1.81309, NormalJumpGravity: 1.81309}
+          IsSetLimitFallSpeed: false
+          LimitFallSpeed: 0.00000
+          LimitFrame: 0.00000
+        - GravityEnum: PrettyHighJump
+          GravityParam:
+            - {CheckSpeed: 11.50000, KeyJumpGravity: 0.80000, NormalJumpGravity: 2.37500}
+            - {CheckSpeed: 6.37500, KeyJumpGravity: 1.00000, NormalJumpGravity: 0.81309}
+            - {CheckSpeed: 1.12500, KeyJumpGravity: 1.14000, NormalJumpGravity: 1.81309}
+            - {CheckSpeed: -0.45000, KeyJumpGravity: 0.52970, NormalJumpGravity: 1.33339}
+            - {CheckSpeed: -13.85000, KeyJumpGravity: 1.35861, NormalJumpGravity: 1.81309}
+            - {CheckSpeed: -15.00000, KeyJumpGravity: 1.81309, NormalJumpGravity: 1.81309}
+          IsSetLimitFallSpeed: false
+          LimitFallSpeed: 0.00000
+          LimitFrame: 0.00000
+        - GravityEnum: HighJump
+          GravityParam:
+            - {CheckSpeed: 11.50000, KeyJumpGravity: 1.62000, NormalJumpGravity: 3.95000}
+            - {CheckSpeed: 6.37500, KeyJumpGravity: 1.81309, NormalJumpGravity: 1.14000}
+            - {CheckSpeed: 1.12500, KeyJumpGravity: 1.81309, NormalJumpGravity: 1.33339}
+            - {CheckSpeed: -0.45000, KeyJumpGravity: 0.42975, NormalJumpGravity: 1.33339}
+            - {CheckSpeed: -13.85000, KeyJumpGravity: 1.65861, NormalJumpGravity: 1.81309}
+            - {CheckSpeed: -15.00000, KeyJumpGravity: 1.81309, NormalJumpGravity: 1.81309}
+          IsSetLimitFallSpeed: false
+          LimitFallSpeed: 0.00000
+          LimitFrame: 0.00000
+        - GravityEnum: VeryHighJump
+          GravityParam:
+            - {CheckSpeed: 11.50000, KeyJumpGravity: 0.90654, NormalJumpGravity: 3.39000}
+            - {CheckSpeed: 6.37500, KeyJumpGravity: 1.20000, NormalJumpGravity: 1.11000}
+            - {CheckSpeed: 1.12500, KeyJumpGravity: 1.50000, NormalJumpGravity: 1.33339}
+            - {CheckSpeed: -0.45000, KeyJumpGravity: 0.42975, NormalJumpGravity: 1.33339}
+            - {CheckSpeed: -13.85000, KeyJumpGravity: 1.65861, NormalJumpGravity: 1.81309}
+            - {CheckSpeed: -15.00000, KeyJumpGravity: 1.81309, NormalJumpGravity: 1.81309}
+          IsSetLimitFallSpeed: false
+          LimitFallSpeed: 0.00000
+          LimitFrame: 0.00000
+        - GravityEnum: ExtremelyJump
+          GravityParam:
+            - {CheckSpeed: 9.37500, KeyJumpGravity: 0.60000, NormalJumpGravity: 3.15000}
+            - {CheckSpeed: 5.62500, KeyJumpGravity: 1.20000, NormalJumpGravity: 1.11000}
+            - {CheckSpeed: 1.12500, KeyJumpGravity: 1.50000, NormalJumpGravity: 1.33339}
+            - {CheckSpeed: -0.45000, KeyJumpGravity: 1.33339, NormalJumpGravity: 1.33339}
+            - {CheckSpeed: -11.25000, KeyJumpGravity: 1.65861, NormalJumpGravity: 1.81309}
+            - {CheckSpeed: -15.00000, KeyJumpGravity: 1.81309, NormalJumpGravity: 1.81309}
+          IsSetLimitFallSpeed: false
+          LimitFallSpeed: 0.00000
+          LimitFrame: 0.00000
+    MetalNormal:
+      GravityTable:
+        - GravityEnum: Normal
+          GravityParam:
+            - {CheckSpeed: 11.50000, KeyJumpGravity: 2.00000, NormalJumpGravity: 6.87500}
+            - {CheckSpeed: 6.37500, KeyJumpGravity: 1.50000, NormalJumpGravity: 1.81309}
+            - {CheckSpeed: 1.12500, KeyJumpGravity: 0.94200, NormalJumpGravity: 1.81309}
+            - {CheckSpeed: -0.45000, KeyJumpGravity: 3.00000, NormalJumpGravity: 3.00000}
+            - {CheckSpeed: -13.85000, KeyJumpGravity: 1.50000, NormalJumpGravity: 3.00000}
+            - {CheckSpeed: -15.00000, KeyJumpGravity: 1.81309, NormalJumpGravity: 1.81309}
+          IsSetLimitFallSpeed: true
+          LimitFallSpeed: -20.00000
+          LimitFrame: 0.00000
+        - GravityEnum: NormalStamp
+          GravityParam:
+            - {CheckSpeed: 11.50000, KeyJumpGravity: 1.10000, NormalJumpGravity: 3.00000}
+            - {CheckSpeed: 6.37500, KeyJumpGravity: 1.50000, NormalJumpGravity: 1.81309}
+            - {CheckSpeed: 1.12500, KeyJumpGravity: 0.94200, NormalJumpGravity: 1.81309}
+            - {CheckSpeed: -0.45000, KeyJumpGravity: 4.00000, NormalJumpGravity: 4.00000}
+            - {CheckSpeed: -13.85000, KeyJumpGravity: 5.00000, NormalJumpGravity: 5.00000}
+            - {CheckSpeed: -15.00000, KeyJumpGravity: 1.81309, NormalJumpGravity: 1.81309}
+          IsSetLimitFallSpeed: false
+          LimitFallSpeed: 0.00000
+          LimitFrame: 0.00000
+        - GravityEnum: PrettyHighJump_HighMin
+          GravityParam:
+            - {CheckSpeed: 11.50000, KeyJumpGravity: 0.78000, NormalJumpGravity: 1.20500}
+            - {CheckSpeed: 6.37500, KeyJumpGravity: 0.88000, NormalJumpGravity: 0.81309}
+            - {CheckSpeed: 1.12500, KeyJumpGravity: 1.14000, NormalJumpGravity: 1.81309}
+            - {CheckSpeed: -0.45000, KeyJumpGravity: 0.52970, NormalJumpGravity: 1.33339}
+            - {CheckSpeed: -13.85000, KeyJumpGravity: 1.35861, NormalJumpGravity: 1.81309}
+            - {CheckSpeed: -15.00000, KeyJumpGravity: 1.81309, NormalJumpGravity: 1.81309}
+          IsSetLimitFallSpeed: false
+          LimitFallSpeed: 0.00000
+          LimitFrame: 0.00000
+        - GravityEnum: PrettyHighJump
+          GravityParam:
+            - {CheckSpeed: 11.50000, KeyJumpGravity: 0.80000, NormalJumpGravity: 2.37500}
+            - {CheckSpeed: 6.37500, KeyJumpGravity: 1.00000, NormalJumpGravity: 0.81309}
+            - {CheckSpeed: 1.12500, KeyJumpGravity: 1.14000, NormalJumpGravity: 1.81309}
+            - {CheckSpeed: -0.45000, KeyJumpGravity: 0.52970, NormalJumpGravity: 1.33339}
+            - {CheckSpeed: -13.85000, KeyJumpGravity: 1.35861, NormalJumpGravity: 1.81309}
+            - {CheckSpeed: -15.00000, KeyJumpGravity: 1.81309, NormalJumpGravity: 1.81309}
+          IsSetLimitFallSpeed: false
+          LimitFallSpeed: 0.00000
+          LimitFrame: 0.00000
+        - GravityEnum: HighJump
+          GravityParam:
+            - {CheckSpeed: 11.50000, KeyJumpGravity: 1.62000, NormalJumpGravity: 3.95000}
+            - {CheckSpeed: 6.37500, KeyJumpGravity: 1.81309, NormalJumpGravity: 1.14000}
+            - {CheckSpeed: 1.12500, KeyJumpGravity: 1.81309, NormalJumpGravity: 1.33339}
+            - {CheckSpeed: -0.45000, KeyJumpGravity: 0.42975, NormalJumpGravity: 1.33339}
+            - {CheckSpeed: -13.85000, KeyJumpGravity: 1.65861, NormalJumpGravity: 1.81309}
+            - {CheckSpeed: -15.00000, KeyJumpGravity: 1.81309, NormalJumpGravity: 1.81309}
+          IsSetLimitFallSpeed: false
+          LimitFallSpeed: 0.00000
+          LimitFrame: 0.00000
+        - GravityEnum: VeryHighJump
+          GravityParam:
+            - {CheckSpeed: 11.50000, KeyJumpGravity: 0.90654, NormalJumpGravity: 3.39000}
+            - {CheckSpeed: 6.37500, KeyJumpGravity: 1.20000, NormalJumpGravity: 1.11000}
+            - {CheckSpeed: 1.12500, KeyJumpGravity: 1.50000, NormalJumpGravity: 1.33339}
+            - {CheckSpeed: -0.45000, KeyJumpGravity: 0.42975, NormalJumpGravity: 1.33339}
+            - {CheckSpeed: -13.85000, KeyJumpGravity: 1.65861, NormalJumpGravity: 1.81309}
+            - {CheckSpeed: -15.00000, KeyJumpGravity: 1.81309, NormalJumpGravity: 1.81309}
+          IsSetLimitFallSpeed: false
+          LimitFallSpeed: 0.00000
+          LimitFrame: 0.00000
+        - GravityEnum: ExtremelyJump
+          GravityParam:
+            - {CheckSpeed: 9.37500, KeyJumpGravity: 0.60000, NormalJumpGravity: 3.15000}
+            - {CheckSpeed: 5.62500, KeyJumpGravity: 1.20000, NormalJumpGravity: 1.11000}
+            - {CheckSpeed: 1.12500, KeyJumpGravity: 1.50000, NormalJumpGravity: 1.33339}
+            - {CheckSpeed: -0.45000, KeyJumpGravity: 1.33339, NormalJumpGravity: 1.33339}
+            - {CheckSpeed: -11.25000, KeyJumpGravity: 1.65861, NormalJumpGravity: 1.81309}
+            - {CheckSpeed: -15.00000, KeyJumpGravity: 1.81309, NormalJumpGravity: 1.81309}
+          IsSetLimitFallSpeed: false
+          LimitFallSpeed: 0.00000
+          LimitFrame: 0.00000
+        - GravityEnum: SquatHighJump
+          GravityParam:
+            - {CheckSpeed: 11.50000, KeyJumpGravity: 6.00000, NormalJumpGravity: 6.00000}
+            - {CheckSpeed: 6.37500, KeyJumpGravity: 1.50000, NormalJumpGravity: 1.50000}
+            - {CheckSpeed: 1.12500, KeyJumpGravity: 0.94200, NormalJumpGravity: 0.94200}
+            - {CheckSpeed: -0.45000, KeyJumpGravity: 3.00000, NormalJumpGravity: 3.00000}
+            - {CheckSpeed: -13.85000, KeyJumpGravity: 3.00000, NormalJumpGravity: 3.00000}
+            - {CheckSpeed: -15.00000, KeyJumpGravity: 1.81309, NormalJumpGravity: 1.81309}
+          IsSetLimitFallSpeed: false
+          LimitFallSpeed: 0.00000
+          LimitFrame: 0.00000
+    Normal:
+      GravityTable:
+        - GravityEnum: Normal
+          GravityParam:
+            - {CheckSpeed: 11.50000, KeyJumpGravity: 0.78000, NormalJumpGravity: 6.87500}
+            - {CheckSpeed: 6.37500, KeyJumpGravity: 0.88000, NormalJumpGravity: 1.81309}
+            - {CheckSpeed: 1.12500, KeyJumpGravity: 0.94200, NormalJumpGravity: 1.81309}
+            - {CheckSpeed: -0.45000, KeyJumpGravity: 0.52970, NormalJumpGravity: 1.33339}
+            - {CheckSpeed: -13.85000, KeyJumpGravity: 1.35861, NormalJumpGravity: 1.81309}
+            - {CheckSpeed: -15.00000, KeyJumpGravity: 1.81309, NormalJumpGravity: 1.81309}
+          IsSetLimitFallSpeed: false
+          LimitFallSpeed: 0.00000
+          LimitFrame: 0.00000
+        - GravityEnum: NormalStamp
+          GravityParam:
+            - {CheckSpeed: 11.50000, KeyJumpGravity: 0.78000, NormalJumpGravity: 2.37500}
+            - {CheckSpeed: 6.37500, KeyJumpGravity: 0.88000, NormalJumpGravity: 0.81309}
+            - {CheckSpeed: 1.12500, KeyJumpGravity: 1.14000, NormalJumpGravity: 1.81309}
+            - {CheckSpeed: -0.45000, KeyJumpGravity: 0.52970, NormalJumpGravity: 1.33339}
+            - {CheckSpeed: -13.85000, KeyJumpGravity: 1.35861, NormalJumpGravity: 1.81309}
+            - {CheckSpeed: -15.00000, KeyJumpGravity: 1.81309, NormalJumpGravity: 1.81309}
+          IsSetLimitFallSpeed: false
+          LimitFallSpeed: 0.00000
+          LimitFrame: 0.00000
+        - GravityEnum: PrettyHighJump_HighMin
+          GravityParam:
+            - {CheckSpeed: 11.50000, KeyJumpGravity: 0.78000, NormalJumpGravity: 1.20500}
+            - {CheckSpeed: 6.37500, KeyJumpGravity: 0.88000, NormalJumpGravity: 0.81309}
+            - {CheckSpeed: 1.12500, KeyJumpGravity: 1.14000, NormalJumpGravity: 1.81309}
+            - {CheckSpeed: -0.45000, KeyJumpGravity: 0.52970, NormalJumpGravity: 1.33339}
+            - {CheckSpeed: -13.85000, KeyJumpGravity: 1.35861, NormalJumpGravity: 1.81309}
+            - {CheckSpeed: -15.00000, KeyJumpGravity: 1.81309, NormalJumpGravity: 1.81309}
+          IsSetLimitFallSpeed: false
+          LimitFallSpeed: 0.00000
+          LimitFrame: 0.00000
+        - GravityEnum: PrettyHighJump
+          GravityParam:
+            - {CheckSpeed: 11.50000, KeyJumpGravity: 0.80000, NormalJumpGravity: 2.37500}
+            - {CheckSpeed: 6.37500, KeyJumpGravity: 1.00000, NormalJumpGravity: 0.81309}
+            - {CheckSpeed: 1.12500, KeyJumpGravity: 1.14000, NormalJumpGravity: 1.81309}
+            - {CheckSpeed: -0.45000, KeyJumpGravity: 0.52970, NormalJumpGravity: 1.33339}
+            - {CheckSpeed: -13.85000, KeyJumpGravity: 1.35861, NormalJumpGravity: 1.81309}
+            - {CheckSpeed: -15.00000, KeyJumpGravity: 1.81309, NormalJumpGravity: 1.81309}
+          IsSetLimitFallSpeed: false
+          LimitFallSpeed: 0.00000
+          LimitFrame: 0.00000
+        - GravityEnum: HighJump
+          GravityParam:
+            - {CheckSpeed: 11.50000, KeyJumpGravity: 1.62000, NormalJumpGravity: 3.95000}
+            - {CheckSpeed: 6.37500, KeyJumpGravity: 1.81309, NormalJumpGravity: 1.14000}
+            - {CheckSpeed: 1.12500, KeyJumpGravity: 1.81309, NormalJumpGravity: 1.33339}
+            - {CheckSpeed: -0.45000, KeyJumpGravity: 0.42975, NormalJumpGravity: 1.33339}
+            - {CheckSpeed: -13.85000, KeyJumpGravity: 1.65861, NormalJumpGravity: 1.81309}
+            - {CheckSpeed: -15.00000, KeyJumpGravity: 1.81309, NormalJumpGravity: 1.81309}
+          IsSetLimitFallSpeed: false
+          LimitFallSpeed: 0.00000
+          LimitFrame: 0.00000
+        - GravityEnum: VeryHighJump
+          GravityParam:
+            - {CheckSpeed: 11.50000, KeyJumpGravity: 0.90654, NormalJumpGravity: 3.39000}
+            - {CheckSpeed: 6.37500, KeyJumpGravity: 1.20000, NormalJumpGravity: 1.11000}
+            - {CheckSpeed: 1.12500, KeyJumpGravity: 1.50000, NormalJumpGravity: 1.33339}
+            - {CheckSpeed: -0.45000, KeyJumpGravity: 0.42975, NormalJumpGravity: 1.33339}
+            - {CheckSpeed: -13.85000, KeyJumpGravity: 1.65861, NormalJumpGravity: 1.81309}
+            - {CheckSpeed: -15.00000, KeyJumpGravity: 1.81309, NormalJumpGravity: 1.81309}
+          IsSetLimitFallSpeed: false
+          LimitFallSpeed: 0.00000
+          LimitFrame: 0.00000
+        - GravityEnum: ExtremelyJump
+          GravityParam:
+            - {CheckSpeed: 9.37500, KeyJumpGravity: 0.60000, NormalJumpGravity: 3.15000}
+            - {CheckSpeed: 5.62500, KeyJumpGravity: 1.20000, NormalJumpGravity: 1.11000}
+            - {CheckSpeed: 1.12500, KeyJumpGravity: 1.50000, NormalJumpGravity: 1.33339}
+            - {CheckSpeed: -0.45000, KeyJumpGravity: 1.33339, NormalJumpGravity: 1.33339}
+            - {CheckSpeed: -11.25000, KeyJumpGravity: 1.65861, NormalJumpGravity: 1.81309}
+            - {CheckSpeed: -15.00000, KeyJumpGravity: 1.81309, NormalJumpGravity: 1.81309}
+          IsSetLimitFallSpeed: false
+          LimitFallSpeed: 0.00000
+          LimitFrame: 0.00000
+        - GravityEnum: WonderJump
+          GravityParam:
+            - {CheckSpeed: 24.00000, KeyJumpGravity: 0.32000, NormalJumpGravity: 8.20000}
+            - {CheckSpeed: 17.00000, KeyJumpGravity: 0.32000, NormalJumpGravity: 5.20000}
+            - {CheckSpeed: 9.37500, KeyJumpGravity: 0.32000, NormalJumpGravity: 1.81309}
+            - {CheckSpeed: 5.62500, KeyJumpGravity: 1.00000, NormalJumpGravity: 1.81309}
+            - {CheckSpeed: 1.12500, KeyJumpGravity: 0.66300, NormalJumpGravity: 1.81309}
+            - {CheckSpeed: -7.50000, KeyJumpGravity: 0.63000, NormalJumpGravity: 1.33339}
+            - {CheckSpeed: -13.85000, KeyJumpGravity: 1.11300, NormalJumpGravity: 1.81309}
+            - {CheckSpeed: -15.00000, KeyJumpGravity: 1.81309, NormalJumpGravity: 1.81309}
+          IsSetLimitFallSpeed: false
+          LimitFallSpeed: 0.00000
+          LimitFrame: 0.00000
+        - GravityEnum: SlopeDashFloor
+          GravityParam:
+            - {CheckSpeed: 9.37500, KeyJumpGravity: 0.17000, NormalJumpGravity: 1.81309}
+            - {CheckSpeed: 5.62500, KeyJumpGravity: 0.20000, NormalJumpGravity: 1.81309}
+            - {CheckSpeed: 1.12500, KeyJumpGravity: 1.65861, NormalJumpGravity: 1.81309}
+            - {CheckSpeed: -0.45000, KeyJumpGravity: 0.42975, NormalJumpGravity: 1.33339}
+            - {CheckSpeed: -11.25000, KeyJumpGravity: 1.65861, NormalJumpGravity: 1.81309}
+            - {CheckSpeed: -15.00000, KeyJumpGravity: 1.81309, NormalJumpGravity: 1.81309}
+          IsSetLimitFallSpeed: false
+          LimitFallSpeed: 0.00000
+          LimitFrame: 0.00000
+        - GravityEnum: DashJumpShootAfterDashCeil
+          GravityParam:
+            - {CheckSpeed: 11.50000, KeyJumpGravity: 0.78000, NormalJumpGravity: 6.87500}
+            - {CheckSpeed: 6.37500, KeyJumpGravity: 0.88000, NormalJumpGravity: 1.81309}
+            - {CheckSpeed: 1.12500, KeyJumpGravity: 1.14000, NormalJumpGravity: 1.81309}
+            - {CheckSpeed: -0.45000, KeyJumpGravity: 0.05000, NormalJumpGravity: 1.33339}
+            - {CheckSpeed: -13.85000, KeyJumpGravity: 0.40000, NormalJumpGravity: 1.81309}
+            - {CheckSpeed: -15.00000, KeyJumpGravity: 1.81309, NormalJumpGravity: 1.81309}
+          IsSetLimitFallSpeed: false
+          LimitFallSpeed: 0.00000
+          LimitFrame: 0.00000
+        - GravityEnum: SkiJump
+          GravityParam:
+            - {CheckSpeed: 11.50000, KeyJumpGravity: 0.78000, NormalJumpGravity: 6.87500}
+            - {CheckSpeed: 6.37500, KeyJumpGravity: 0.88000, NormalJumpGravity: 1.81309}
+            - {CheckSpeed: 1.12500, KeyJumpGravity: 0.94200, NormalJumpGravity: 1.81309}
+            - {CheckSpeed: -0.45000, KeyJumpGravity: 0.10000, NormalJumpGravity: 1.33339}
+            - {CheckSpeed: -7.50000, KeyJumpGravity: 0.10000, NormalJumpGravity: 1.81309}
+            - {CheckSpeed: -15.00000, KeyJumpGravity: 1.81309, NormalJumpGravity: 1.81309}
+          IsSetLimitFallSpeed: false
+          LimitFallSpeed: 0.00000
+          LimitFrame: 0.00000
+        - GravityEnum: ParachuteCap
+          GravityParam:
+            - {CheckSpeed: 11.50000, KeyJumpGravity: 0.78000, NormalJumpGravity: 6.87500}
+            - {CheckSpeed: 6.37500, KeyJumpGravity: 0.88000, NormalJumpGravity: 1.81309}
+            - {CheckSpeed: 1.12500, KeyJumpGravity: 0.94200, NormalJumpGravity: 1.81309}
+            - {CheckSpeed: -0.45000, KeyJumpGravity: 0.52970, NormalJumpGravity: 1.33339}
+            - {CheckSpeed: -13.85000, KeyJumpGravity: 1.35861, NormalJumpGravity: 1.81309}
+            - {CheckSpeed: -15.00000, KeyJumpGravity: 1.81309, NormalJumpGravity: 1.81309}
+          IsSetLimitFallSpeed: true
+          LimitFallSpeed: -1.50000
+          LimitFrame: 45.00000
+        - GravityEnum: WonderLotionFall
+          GravityParam:
+            - {CheckSpeed: 11.50000, KeyJumpGravity: 0.72000, NormalJumpGravity: 6.87500}
+            - {CheckSpeed: 6.37500, KeyJumpGravity: 0.80000, NormalJumpGravity: 1.81309}
+            - {CheckSpeed: 1.12500, KeyJumpGravity: 0.90000, NormalJumpGravity: 1.81309}
+            - {CheckSpeed: -0.45000, KeyJumpGravity: 0.52970, NormalJumpGravity: 0.52970}
+            - {CheckSpeed: -5.85000, KeyJumpGravity: 0.72970, NormalJumpGravity: 0.72970}
+            - {CheckSpeed: -13.85000, KeyJumpGravity: 1.35861, NormalJumpGravity: 1.81309}
+            - {CheckSpeed: -15.00000, KeyJumpGravity: 1.81309, NormalJumpGravity: 1.81309}
+          IsSetLimitFallSpeed: false
+          LimitFallSpeed: 0.00000
+          LimitFrame: 0.00000
+        - GravityEnum: DrillJump
+          GravityParam:
+            - {CheckSpeed: 11.50000, KeyJumpGravity: 0.78000, NormalJumpGravity: 1.30000}
+            - {CheckSpeed: 6.37500, KeyJumpGravity: 0.88000, NormalJumpGravity: 1.35000}
+            - {CheckSpeed: 1.12500, KeyJumpGravity: 0.90000, NormalJumpGravity: 1.40000}
+            - {CheckSpeed: -0.45000, KeyJumpGravity: 0.55000, NormalJumpGravity: 0.80000}
+            - {CheckSpeed: -13.85000, KeyJumpGravity: 1.35861, NormalJumpGravity: 1.35861}
+            - {CheckSpeed: -15.00000, KeyJumpGravity: 1.81309, NormalJumpGravity: 1.81309}
+          IsSetLimitFallSpeed: false
+          LimitFallSpeed: 0.00000
+          LimitFrame: 0.00000
+        - GravityEnum: ReturnJump
+          GravityParam:
+            - {CheckSpeed: 11.50000, KeyJumpGravity: 0.17000, NormalJumpGravity: 0.17000}
+            - {CheckSpeed: 6.37500, KeyJumpGravity: 0.70000, NormalJumpGravity: 0.70000}
+            - {CheckSpeed: 1.12500, KeyJumpGravity: 1.59978, NormalJumpGravity: 1.59978}
+            - {CheckSpeed: -0.45000, KeyJumpGravity: 0.15998, NormalJumpGravity: 0.15998}
+            - {CheckSpeed: -5.00000, KeyJumpGravity: 0.54000, NormalJumpGravity: 0.54000}
+            - {CheckSpeed: -15.00000, KeyJumpGravity: 1.81309, NormalJumpGravity: 1.81309}
+          IsSetLimitFallSpeed: false
+          LimitFallSpeed: 0.00000
+          LimitFrame: 0.00000
+        - GravityEnum: SquatHighJump
+          GravityParam:
+            - {CheckSpeed: 11.50000, KeyJumpGravity: 3.06800, NormalJumpGravity: 6.87500}
+            - {CheckSpeed: 6.37500, KeyJumpGravity: 0.88000, NormalJumpGravity: 1.81309}
+            - {CheckSpeed: 1.12500, KeyJumpGravity: 0.94200, NormalJumpGravity: 1.81309}
+            - {CheckSpeed: -0.45000, KeyJumpGravity: 0.52970, NormalJumpGravity: 1.33339}
+            - {CheckSpeed: -13.85000, KeyJumpGravity: 1.35861, NormalJumpGravity: 1.81309}
+            - {CheckSpeed: -15.00000, KeyJumpGravity: 1.81309, NormalJumpGravity: 1.81309}
+          IsSetLimitFallSpeed: false
+          LimitFallSpeed: 0.00000
+          LimitFrame: 0.00000
+        - GravityEnum: GoalPole
+          GravityParam:
+            - {CheckSpeed: 17.10000, KeyJumpGravity: 0.78000, NormalJumpGravity: 0.78000}
+            - {CheckSpeed: 11.50000, KeyJumpGravity: 0.78000, NormalJumpGravity: 6.87500}
+            - {CheckSpeed: 6.37500, KeyJumpGravity: 0.88000, NormalJumpGravity: 1.81309}
+            - {CheckSpeed: 1.12500, KeyJumpGravity: 0.94200, NormalJumpGravity: 1.81309}
+            - {CheckSpeed: -0.45000, KeyJumpGravity: 0.52970, NormalJumpGravity: 1.33339}
+            - {CheckSpeed: -13.85000, KeyJumpGravity: 1.35861, NormalJumpGravity: 1.81309}
+            - {CheckSpeed: -15.00000, KeyJumpGravity: 1.81309, NormalJumpGravity: 1.81309}
+          IsSetLimitFallSpeed: false
+          LimitFallSpeed: 0.00000
+          LimitFrame: 0.00000
+        - GravityEnum: StrongGravityArea
+          GravityParam:
+            - {CheckSpeed: -2.00000, KeyJumpGravity: 2.50000, NormalJumpGravity: 2.50000}
+          IsSetLimitFallSpeed: true
+          LimitFallSpeed: -40.00000
+        - GravityEnum: KoopaRhythmJump
+          GravityParam:
+            - {CheckSpeed: 11.50000, KeyJumpGravity: 1.62000, NormalJumpGravity: 3.95000}
+            - {CheckSpeed: 6.37500, KeyJumpGravity: 1.81309, NormalJumpGravity: 1.14000}
+            - {CheckSpeed: 1.12500, KeyJumpGravity: 1.81309, NormalJumpGravity: 1.33339}
+            - {CheckSpeed: -0.45000, KeyJumpGravity: 0.42975, NormalJumpGravity: 1.33339}
+            - {CheckSpeed: -13.85000, KeyJumpGravity: 1.65861, NormalJumpGravity: 1.81309}
+            - {CheckSpeed: -15.00000, KeyJumpGravity: 1.81309, NormalJumpGravity: 1.81309}
+  IsDebugAllGravityRate: false
+  ParachuteFallMaxRate: 6.00000
+  StrongGravityAreaOuterPower: 3.00000
