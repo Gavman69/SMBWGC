@@ -4,7 +4,7 @@ local file = io.open("yaml/"..filename..".yaml", "r")
 local text = file:read("*a")
 file:close()
 function split(pString, pPattern)
-    local Table = {}  -- NOTE: use {n = 0} in Lua-5.0
+    local Table = {}
     local fpat = "(.-)" .. pPattern
     local last_end = 1
     local s, e, cap = pString:find(fpat, 1)
@@ -76,12 +76,6 @@ function setGravNumbers(gravNumbers, multi)
     local newGravNumbers = {}
     for inter,v in pairs(gravNumbers) do
         table.insert(newGravNumbers, #newGravNumbers+1, v+(multi))
-        if getDecimals(newGravNumbers[inter]) < 5 then
-            if getDecimals(newGravNumbers[inter]) <= 0 then
-                --newGravNumbers[inter] = newGravNumbers[inter]..'.0'
-            end
-            --newGravNumbers[inter] = newGravNumbers[inter]..'0'
-        end
         if getDecimals(newGravNumbers[inter]) > 5 then
             newGravNumbers[inter] = round(tonumber(newGravNumbers[inter]), 5)
         end
@@ -100,8 +94,9 @@ function replaceYamlText()
     end
     return sillyText
 end
+print('Writing data...')
 local exportFile = io.open("yaml/export/export.yaml", "w")
 exportFile:write(replaceYamlText())
---print(replaceYamlText())
 exportFile:close()
+print('')
 print('Finished! Check yaml/export/export.yaml for the exported file data!')
