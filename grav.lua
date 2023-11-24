@@ -1,5 +1,6 @@
 print('Starting, this process may take a while depending on your hardware..')
-local filename = "Player.game__actor__gparam__PlayerGravityParam" --Change this value to the name of the file your trying to change, make sure to put it in the yaml folder
+local mathNum = -0.05 --This is the number used to edit the gravity values, go edit this how you want, this uses addition, but you should be able to change that fairly easily by editing the setGravNumbers function slightly
+local filename = "Player.game__actor__gparam__PlayerGravityParam"
 local file = io.open("yaml/"..filename..".yaml", "r")
 local text = file:read("*a")
 file:close()
@@ -84,7 +85,7 @@ function setGravNumbers(gravNumbers, multi)
     return newGravNumbers
 end
 print('functions has been made')
-local sillyVal = setGravNumbers(getGravNumbers(), -0.05)
+local sillyVal = setGravNumbers(getGravNumbers(), mathNum)
 print('got the gravity numbers!')
 function replaceYamlText()
     local sillyText = text
